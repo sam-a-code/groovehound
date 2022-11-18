@@ -8,8 +8,9 @@ const FavoritesContainer = ({genre_1, genre_2, genre_3, favorite_band}) => {
       sx={{
         justifyContent:'space-around',
       }}
+      className='favorite-container'
     >
-      <div>
+      <div >
         <h1 className='favorite-header'>
           <a className='underline-style'>Favorite band</a>
         </h1>

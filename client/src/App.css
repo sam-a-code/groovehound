@@ -141,6 +141,12 @@
   font-size: 20px;
 }
 
+.favorite-container {
+  background-image: url('https://images.unsplash.com/photo-1585298723682-7115561c51b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+  background-position: center;
+  padding: 80px;
+}
+
 .underline-style {
   color: #ced4da;
   text-transform: uppercase;
@@ -329,8 +335,8 @@
 
 .location {
   /* float: left; */
-  margin: 20px 75px 0 180px;
-  padding-top: 100px;
+  margin: 30px 75px 0 180px;
+  padding-top: 120px;
   font-size: 18px;
   font-weight: bold;
   -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
@@ -347,7 +353,7 @@
   float: left;
   position: absolute;
   left: -170px;
-  bottom: 10px;
+  bottom: 0px;
   -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
 }
