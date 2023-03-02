@@ -11,6 +11,7 @@ My partners and I built this project as part of our software engineering bootcam
 See Environment Setup at the bottom of this page for instructions on installing these tools if you don't already have them.
 
 ## 🎧 Installing Groovehound
+To get started and set up the database, do the following:
 #### `bundle install`
 #### `npm install --prefix client`
 #### `rails db:migrate`
@@ -18,11 +19,11 @@ See Environment Setup at the bottom of this page for instructions on installing 
 ## 🎸 Using Groovehound
 
 In the project directory, first run:
-#### `rails s`: run the backend on [http://localhost:3000](http://localhost:3000)
+#### `rails s` to run the backend on [http://localhost:3000](http://localhost:3000)
 
 Then, you can run:
 
-#### `npm start --prefix client`: run the frontend on [http://localhost:4000](http://localhost:4000)
+#### `npm start --prefix client` to run the frontend on [http://localhost:4000](http://localhost:4000)
 
 This will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
